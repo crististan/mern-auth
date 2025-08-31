@@ -1,10 +1,13 @@
-import Header from "./components/Header"
+import Header from './components/Header';
+import HomeScreen from './screens/HomeScreen';
 
-export default function App() {
+const App = () => {
   return (
     <>
       <Header />
-      App
+      <HomeScreen />
     </>
   )
 }
+
+export default App;

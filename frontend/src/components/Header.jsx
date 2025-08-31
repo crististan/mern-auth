@@ -1,7 +1,7 @@
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { FaSignInAlt, FaSignOutAlt } from 'react-icons/fa';
 
-export default function Header() {
+const Header = () => {
     return (
         <header>
             <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
@@ -23,3 +23,5 @@ export default function Header() {
         </header>
     )
 }
+
+export default Header;
